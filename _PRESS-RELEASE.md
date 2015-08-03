@@ -18,27 +18,36 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  SpeedReader
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  The easiest way to learn to speed read
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  SpeadReader adds styling lines to paragraphs of text on a given webpage to guide the user into making use of their peripheral vision to increase reading speed. 
 
 ## Problem ##
   > Describe the problem your product solves.
+  Currently the only way to make use of this practice is to manually draw lines on paper that you're reading from. 
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  SpeedReader lets the user continue to read from webpages (the most common form of information consumption) and learn to speed read.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  "The faster I read, the more information I can take in, the more competitive I become in any field."
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  Simply download the bookmarklet and run it on the webpage you'd like to practice it on.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  "I can read so much faster now, W00T!"
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  Learn to speed read or get left behind. 
