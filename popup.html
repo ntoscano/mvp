@@ -20,19 +20,34 @@
         max-width: 400px;
       }
     </style>
-
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
-     -->
+    <script src="angular.min.js"></script>
     <script src="jquery.min.js"></script>
     <script src="app.js"></script>
     <script src="popup.js"></script>
   </head>
   <body>
-    <div id="status">HULOOOOO</div>
+    <div ng-app='color' ng-init="red=255;green=0;blue=0;opacity=1;width=1;percent=10" ng-controller="colorController">
+      <b>Color:</b>
+      <div>
+        Red(0-255): <input type="number" min="0" ng-model="red">
+      </div>
+      <div>
+        Green(0-255): <input type="number" min="0" ng-model="green">
+      </div>
+      <div>
+        Blue(0-255): <input type="number" min="0" ng-model="blue">
+      </div>
+      <div>
+        Opacity(0-1): <input type="number" min="0" ng-model="opacity">
+      </div>
+      <div>
+        Width: <input type="number" min="1" ng-model="width">
+      </div>
+      <div>
+        Percent(0-100): <input type="number" min="1" ng-model="percent">
+      </div>
+    </div>
+
     <button id='Btn'>run</button>
     <img id="image-result" hidden>
   </body>
